@@ -1,0 +1,34 @@
+{
+  "name": "toddler-proxy",
+  "version": "1.0.0",
+  "description": "A small HTTP(S) forward proxy with optional basic auth and Windows firewall hint commands",
+  "main": "index.js",
+  "bin": {
+    "toddler-proxy": "bin/cli.js"
+  },
+  "keywords": [
+    "proxy",
+    "http-proxy",
+    "forward-proxy",
+    "nodejs"
+  ],
+  "author": "Sobuj Chowdhury <sobujos@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobujos/toddler-proxy.git"
+  },
+  "files": [
+    "index.js",
+    "proxy.js",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
